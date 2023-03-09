@@ -1,0 +1,20 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+# path: ../datasets/VOC
+train: 
+  - /home/mxvivi/yolov5/yolov5/data/images/train/
+val: 
+  - /home/mxvivi/yolov5/yolov5/data/images/val/
+test: 
+  - /home/mxvivi/yolov5/yolov5/data/images/test/
+nc: 6
+# Classes
+names:
+  0: ore carrier
+  1: general cargo ship
+  2: bulk cargo carrier
+  3: container ship
+  4: fishing boat
+  5: passenger ship
+
+
+
